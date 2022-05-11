@@ -1,16 +1,30 @@
 # app_launcher
+**Goal**: A Flutter project to launch another app with its deep link.
 
-A Flutter project to launch another app with its deep link.
+## Requirements
+* Computer (Windows, Mac or Linux)
+* Android Studio
 
-## Getting Started
+## Setup the project in Android studio
+1. Download the project code, preferably using `git clone git@github.com:YannMancel/app_launcher.git`.
+2. In Android Studio, select *File* | *Open...*
+3. Select the project
 
-This project is a starting point for a Flutter application.
+## Dependencies
+* Launcher with deep link
+    * [external_app_launcher][1]
 
-A few resources to get you started if this is your first Flutter project:
+## Troubleshooting
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+### No device available during the compilation and execution steps
+* If none of device is present (*Available Virtual Devices* or *Connected Devices*),
+    * Either select `Create a new virtual device`
+    * or connect and select your phone or tablet
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Useful
+* [Download Android Studio](https://developer.android.com/studio)
+* [Create a new virtual device](https://developer.android.com/studio/run/managing-avds.html)
+* [Enable developer options and debugging](https://developer.android.com/studio/debug/dev-options.html#enable)
+
+[1]: https://pub.dev/packages/external_app_launcher
+
